@@ -12,7 +12,6 @@ describe('Pruebas en 08-imp-exp', () => {
     test('getHeroeById dede de regresar un heroe por ID debe retornar undefine si no existe', () => {
         const id = 100;
         const hero = getHeroeById( id );
-        console.log(hero);
 
         expect( hero ).toBeFalsy();
     });
